@@ -124,3 +124,11 @@ or locally from the payjoin-cli directory:
 ```sh
 cargo run --features v2 -- fetch-keys
 ```
+
+```sh
+cargo run --features v2 -- fetch-keys --ohttp-relay https://pj.benalleng.com
+```
+some relays:
+https://pj.benalleng.com
+https://ohttp.cakewallet.com
+https://pj.bobspacebkk.com - default
